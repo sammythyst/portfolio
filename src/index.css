@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+  --text: #e6e1e7;
+  --accent: #675a6d;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--text);
+    font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(164,161,171);
+  background: radial-gradient(circle, rgba(164,161,171,1) 0%, rgba(103,90,109,1) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  border-bottom: 2px solid var(--text);
+  padding-bottom: 6px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+nav a:hover{
+  border: 1px solid var(--text);
+  color: var(--text);
+  background-color: var(--accent);
+}
+
+form {
+  padding-bottom: 50px;
+}
+
+input, textarea {
+  background-color: var(--text);
+  color: var(--accent);
+}
+
+button {
+  border: 1px solid var(--text);
+  background-color: var(--accent);
+  color: var(--text);
+  max-width: 250px;
+}
+
+.email, .email:hover {
+  color: var(--text);
+}
+
+.textLayer, .annotationLayer {
+  display: none;
+}
