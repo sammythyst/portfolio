@@ -4,6 +4,7 @@ import { validateEmail } from '../utils/helpers';
 function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     const [confirmMessage, setConfirmMessage] = useState('');
@@ -17,6 +18,8 @@ function Contact() {
             setName(inputValue);
         } else if (inputType === 'email') {
             setEmail(inputValue);
+        } else if (inputType === 'subject') {
+            setSubject(inputValue);
         } else {
             setMessage(inputValue);
         }
@@ -33,11 +36,15 @@ function Contact() {
             setErrorMessage('Please enter a valid email address.');
             return;
         }
+        if (!subject) {
+            setErrorMessage('Please enter a subject heading.');
+            return;
+        }
         if (!message) {
             setErrorMessage('Please enter a message.');
             return;
         }
-        if (name && email && message) {
+        if (name && email && subject && message) {
             setErrorMessage('');
             setConfirmMessage('Message sent!');
             return;
@@ -45,6 +52,7 @@ function Contact() {
 
         setName('');
         setEmail('');
+        setSubject('');
         setMessage('');
     };
 
@@ -53,22 +61,28 @@ function Contact() {
         <div className='my-5 d-md-flex'>
             <div className='w-100 d-md-block'>
                 <h3>Contact Me</h3>
-                <p className='px-2'>Have a question or comment for me? Send a message in the form provided or email me directly at <a class="email" href="mailto:samswain.dev@gmail.com">samswain.dev@gmail.com</a>. I'd love to hear from you and will get back to you as soon as I can.</p>
+                <p>Have a question or comment for me? Send a message in the form provided or email me directly at <a class="email" href="mailto:samswain.dev@gmail.com">samswain.dev@gmail.com</a>. I'd love to hear from you and will get back to you as soon as I can.</p>
                 </div>
             <div className='w-100 d-md-block'>
-                <form className='d-flex flex-column'>
+                <form className='px-5 d-flex flex-column'>
                     <input className='mb-3 mx-1 px-2'
                         value={name}
                         name="name"
                         onChange={handleInputChange}
                         type="text"
-                        placeholder="Name"/>
+                        placeholder="Name" />
                     <input className='mb-3 mx-1 px-2'
                         value={email}
                         name="email"
                         onChange={handleInputChange}
                         type="email"
                         placeholder="Email"/>
+                    <input className='mb-3 mx-1 px-2'
+                        value={subject}
+                        name="subject"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="Subject"/>
                     <textarea className='mb-3 mx-1 px-2'
                         value={message}
                         name="message"

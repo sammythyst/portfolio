@@ -10,7 +10,7 @@ function Navbar() {
 
     return (  
 
-    <nav className="main-header-menu col-12">
+    <nav className="main-header-menu w-100">
       <h1 
         style={{
           display: 'flex', 
@@ -35,7 +35,7 @@ function Navbar() {
         <div>
           <NavLink to='/' style={({ isActive }) =>
               isActive ? activeNav : undefined
-            }>About Me</NavLink>
+            }>About</NavLink>
         </div>
         <div>
           <NavLink to='/portfolio' style={({ isActive }) =>
