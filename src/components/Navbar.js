@@ -42,11 +42,11 @@ function Navbar() {
               isActive ? activeNav : undefined
             }>Portfolio</NavLink>
         </div>
-        <div>
+        {/* <div>
           <NavLink to='/contact' style={({ isActive }) =>
               isActive ? activeNav : undefined
             }>Contact</NavLink>
-        </div>
+        </div> */}
         <div>
           <NavLink to='/resume' style={({ isActive }) =>
               isActive ? activeNav : undefined

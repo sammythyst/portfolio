@@ -50,10 +50,10 @@ function Contact() {
 
     
     return (
-        <div className='m-5 d-md-flex'>
+        <div className='my-5 d-md-flex'>
             <div className='w-100 d-md-block'>
                 <h3>Contact Me</h3>
-                <p className='p-2'>Have a question or comment for me? Send a message in the form provided or email me directly at <a class="email" href="mailto:samswain.dev@gmail.com">samswain.dev@gmail.com</a>. I'd love to hear from you and will get back to you as soon as I can.</p>
+                <p className='px-2'>Have a question or comment for me? Send a message in the form provided or email me directly at <a class="email" href="mailto:samswain.dev@gmail.com">samswain.dev@gmail.com</a>. I'd love to hear from you and will get back to you as soon as I can.</p>
                 </div>
             <div className='w-100 d-md-block'>
                 <form className='d-flex flex-column'>
