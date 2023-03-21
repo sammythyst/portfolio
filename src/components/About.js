@@ -3,8 +3,10 @@ import Contact from './Contact';
 
 function About() {
     const dev = { 
-        maxWidth: "350px",
+        maxWidth: "450px",
         display: 'flex', 
+        borderRadius: "50%",
+        margin: "0px 50px"
     }
 
 
