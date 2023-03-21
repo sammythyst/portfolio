@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename='/portfolio'>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
