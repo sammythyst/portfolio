@@ -20,6 +20,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: rgb(164,161,171);
   background: radial-gradient(circle, rgba(164,161,171,1) 0%, rgba(103,90,109,1) 100%);
+  background-image: url("./images/background.png");
+  background-attachment: fixed;
 }
 
 code {
@@ -27,26 +29,16 @@ code {
     monospace;
 }
 
-nav {
-  border-bottom: 2px solid var(--text);
-  padding-bottom: 6px;
-}
-
 nav a {
   text-decoration: none;
   color: var(--text);
-  margin: 0px 10px;
-  padding: 10px;
+  margin: 0px 35px;
+  padding: 10px
 }
 
 nav a:hover{
-  border: 1px solid var(--text);
+  border-bottom: 1px solid var(--text);
   color: var(--text);
-  background-color: var(--accent);
-}
-
-form {
-  padding-bottom: 50px;
 }
 
 input, textarea {

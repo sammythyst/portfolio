@@ -3,35 +3,21 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   let activeNav = {
-    border: "1px solid var(--text)",
-    color: "var(--text)",
-    backgroundColor: "var(--accent)",
+    borderBottom: "1px solid var(--text)",
+    color: "var(--text)"
   };
+
+  const nav = {
+    display: 'flex',
+    alignItems: 'center',
+  }
 
     return (  
 
-    <nav className="main-header-menu w-100">
-      <h1 
-        style={{
-          display: 'flex', 
-          justifyContent: 'center', 
-          paddingTop: '25px',
-        }}>Sam Bensema</h1>
-
-      <h6 
-        style={{
-          display: 'flex', 
-          justifyContent: 'center',
-          paddingBottom: '25px',
-        }}>They/Them</h6>
-
-      <section
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          textAlign: 'center',
-        }}>        
+    <nav className="main-header-menu w-100 d-md-inline-flex justify-content-between">
+      <h1 className='m-4' style={{paddingLeft: '35px'}}>Sam Bensema <span>(They/Them)</span></h1>
+      
+      <section style={nav} className='m-4'>        
         <div>
           <NavLink to='/' style={({ isActive }) =>
               isActive ? activeNav : undefined
@@ -42,11 +28,6 @@ function Navbar() {
               isActive ? activeNav : undefined
             }>Portfolio</NavLink>
         </div>
-        {/* <div>
-          <NavLink to='/contact' style={({ isActive }) =>
-              isActive ? activeNav : undefined
-            }>Contact</NavLink>
-        </div> */}
         <div>
           <NavLink to='/resume' style={({ isActive }) =>
               isActive ? activeNav : undefined

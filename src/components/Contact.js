@@ -64,26 +64,26 @@ function Contact() {
                 <p>Have a question or comment for me? Send a message in the form provided or email me directly at <a class="email" href="mailto:samswain.dev@gmail.com">samswain.dev@gmail.com</a>. I'd love to hear from you and will get back to you as soon as I can.</p>
                 </div>
             <div className='w-100 d-md-block'>
-                <form className='px-5 d-flex flex-column'>
-                    <input className='mb-3 mx-1 px-2'
+                <form className='d-flex flex-column mx-2'>
+                    <input className='mb-3 px-2'
                         value={name}
                         name="name"
                         onChange={handleInputChange}
                         type="text"
                         placeholder="Name" />
-                    <input className='mb-3 mx-1 px-2'
+                    <input className='mb-3 px-2'
                         value={email}
                         name="email"
                         onChange={handleInputChange}
                         type="email"
                         placeholder="Email"/>
-                    <input className='mb-3 mx-1 px-2'
+                    <input className='mb-3 px-2'
                         value={subject}
                         name="subject"
                         onChange={handleInputChange}
                         type="text"
                         placeholder="Subject"/>
-                    <textarea className='mb-3 mx-1 px-2'
+                    <textarea className='mb-3 px-2'
                         value={message}
                         name="message"
                         onChange={handleInputChange}

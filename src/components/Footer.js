@@ -5,10 +5,9 @@ import { BsStackOverflow } from 'react-icons/bs';
 
 function About() {
     const footer = {
-        position: "fixed",
-        bottom: 0,
         width: "100%",
         backgroundColor: "var(--accent)",
+        borderTop: "1px solid var(--text)",
         display: "flex",
         justifyContent: "center"
     }
@@ -19,9 +18,9 @@ function About() {
 
     return (
         <div style={footer}>
-            <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={40} style={icons}/></a>
-            <a href="https://www.linkedin.com/in/sam-bensema-a5a654264/" target="_blank" rel="noopener noreferrer"><BsLinkedin size={40} style={icons}/></a>
-            <a href="https://stackoverflow.com/users/21236524/sammythyst" target="_blank" rel="noopener noreferrer"><BsStackOverflow size={40} style={icons}/></a>
+            <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={35} style={icons}/></a>
+            <a href="https://www.linkedin.com/in/sam-bensema-a5a654264/" target="_blank" rel="noopener noreferrer"><BsLinkedin size={35} style={icons}/></a>
+            <a href="https://stackoverflow.com/users/21236524/sammythyst" target="_blank" rel="noopener noreferrer"><BsStackOverflow size={35} style={icons}/></a>
         </div>
     );
 }
