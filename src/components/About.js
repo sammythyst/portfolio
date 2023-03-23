@@ -20,7 +20,7 @@ function About() {
                     
                 </div>
                 <div className='d-flex justify-content-center'>
-                    <img src={require('../images/avatar.png')} alt="Cartoon image of the developer." style={dev}/>
+                    <img src={require('../images/avatar.png')} alt="Cartoon depiction of the developer." style={dev}/>
                 </div>
             </div>
             
