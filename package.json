@@ -10,6 +10,7 @@
     "axios": "^1.3.3",
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
+    "emailjs-com": "^3.2.0",
     "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-bootstrap-form": "^0.1.4-beta6",
@@ -45,5 +46,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<!-- **sammythyst/sammythyst** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammythyst/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammythyst/portfolio/issues"
+  },
+  "homepage": "https://github.com/sammythyst/portfolio#readme"
 }
