@@ -20,7 +20,7 @@ function Resume() {
                 </a>
             </div>
             <Document file={resume} className="d-flex justify-content-center">
-                <Page pageNumber={pageNumber} className="mb-5" scale={1.5}/>
+                <Page pageNumber={pageNumber} className="mb-5 resume"/>
             </Document>
         </div>
     );

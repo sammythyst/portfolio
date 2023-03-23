@@ -4,9 +4,9 @@ import { BsGithub } from 'react-icons/bs';
 
 function Portfolio() {
     const img = { 
-        maxWidth: "500px",
+        maxWidth: "450px",
         margin: "0px 20px 75px",
-        display: "flex",
+        display: "flex"
     }
 
     const links = {

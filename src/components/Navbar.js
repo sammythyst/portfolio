@@ -15,7 +15,7 @@ function Navbar() {
     return (  
 
     <nav className="main-header-menu w-100 d-md-inline-flex justify-content-between">
-      <h1 className='m-4' style={{paddingLeft: '35px'}}>Sam Bensema <span>(They/Them)</span></h1>
+      <h1 className='m-4' style={{paddingLeft: '35px'}}>Sam Bensema <span>(they/them)</span></h1>
       
       <section style={nav} className='m-4'>        
         <div>

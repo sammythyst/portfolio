@@ -2,7 +2,7 @@
 
 :root {
   --text: #e6e1e7;
-  --accent: #675a6d;
+  --accent: #8558CD;
 }
 
 * {
@@ -18,10 +18,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(164,161,171);
   background: radial-gradient(circle, rgba(164,161,171,1) 0%, rgba(103,90,109,1) 100%);
-  background-image: url("./images/background.png");
-  background-repeat: none;
+  background-image: url("./images/background.jpeg");
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -62,8 +61,14 @@ button {
   display: none;
 }
 
+
 @media only screen and (max-width: 600px) {
   nav a {
     margin: 0px 10px;
   }
+
+  .resume {
+    display: none;
+  }
+
 }
