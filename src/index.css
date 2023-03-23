@@ -2,7 +2,7 @@
 
 :root {
   --text: #e6e1e7;
-  --accent: #8558CD;
+  --accent: #5b4d81;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: radial-gradient(circle, rgba(164,161,171,1) 0%, rgba(103,90,109,1) 100%);
-  background-image: url("./images/background.jpeg");
+  background-image: url("./images/background.png");
   background-size: cover;
   background-attachment: fixed;
 }
