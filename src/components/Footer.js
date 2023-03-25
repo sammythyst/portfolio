@@ -6,7 +6,7 @@ import { BsStackOverflow } from 'react-icons/bs';
 function About() {
     const footer = {
         width: "100%",
-        backgroundColor: "var(--accent)",
+        // backgroundColor: "var(--accent)",
         borderTop: "1px solid var(--text)",
         display: "flex",
         justifyContent: "center"

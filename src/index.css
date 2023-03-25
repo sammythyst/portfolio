@@ -2,7 +2,7 @@
 
 :root {
   --text: #e6e1e7;
-  --accent: #3b2e50;
+  --accent: #9966cc;
 }
 
 * {
@@ -54,7 +54,7 @@ button {
 }
 
 .email, .email:hover {
-  color: var(--text);
+  color: var(--accent);
 }
 
 .textLayer, .annotationLayer {

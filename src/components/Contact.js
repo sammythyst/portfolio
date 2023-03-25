@@ -68,7 +68,7 @@ function Contact() {
         <div className='my-5 d-md-flex'>
         <div className='w-100 d-md-block'>
                 <h3>Contact Me</h3>
-                <p>Have a question or comment for me? Send a message in the form provided or email me directly at <a className="email" href="mailto:samswain.dev@gmail.com">samswain.dev@gmail.com</a>. I'd love to hear from you and will get back to you within 24 hours.</p>
+                <p>Want to reach out? Send a message in the form provided or email me directly at <a className="email" href="mailto:samswain.dev@gmail.com">samswain.dev@gmail.com</a>. I'd love to hear from you and will get back to you within 24 hours.</p>
         </div>
         <div className='w-100 d-md-block'>
             <form className='d-flex flex-column mx-2' onSubmit={onSubmit}>
