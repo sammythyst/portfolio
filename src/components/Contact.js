@@ -13,6 +13,10 @@ function Contact() {
       message: '',
     });
 
+    const service = process.env.REACT_APP_SERVICE_ID;
+    const template = process.env.REACT_APP_TEMPLATE_ID;
+    const user = process.env.REACT_APP_USER_ID;
+    
     const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
     };
@@ -38,10 +42,10 @@ function Contact() {
         }
         if (toSend.from_name && toSend.reply_to && toSend.subject && toSend.message) {
             send(
-                'service_iyw0bi9',
-                'template_thpcycl',
+                service,
+                template,
                 toSend,
-                'CuyhleZXSVTjworC3'
+                user
                 )
                 .then((response) => {
                     console.log('SUCCESS!', response.status, response.text);
