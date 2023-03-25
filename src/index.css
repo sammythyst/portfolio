@@ -43,7 +43,7 @@ nav a:hover{
 
 input, textarea {
   background-color: var(--text);
-  color: var(--accent);
+  color: black;
 }
 
 button {
