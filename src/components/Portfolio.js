@@ -40,6 +40,31 @@ function Portfolio() {
                     </div>
                     <img src={require('../images/re-tcg.png')} alt="pokemon-like cards on a red and black starburst background" style={img}/>
                 </div>
+                {/* module 18 */}
+                {/* <div>
+                    <div style={links}>
+                        <p>Social Network API</p>
+                        <a href="https://github.com/sammythyst/social-network-api" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
+                    </div>
+                    
+                    <img src={require('../images/placeholder.png')} alt="placeholder" style={img}/>
+                </div> */}
+                {/* module 13 */}
+                {/* <div>
+                    <div style={links}>
+                        <p>Ecommerce Backend</p>
+                        <a href="https://github.com/sammythyst/ecommerce-back-end" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
+                    </div>
+                    <img src={require('../images/placeholder.png')} alt="placeholder" style={img}/>
+                </div> */}
+                {/* module 12 */}
+                <div>
+                    <div style={links}>
+                        <p>Employee Tracker</p>
+                        <a href="https://github.com/sammythyst/employee-tracker" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
+                    </div>
+                    <img src={require('../images/employee-tracker.png')} alt="a command line application of a company database" style={img}/>
+                </div>
                  {/* module 10 */}
                  <div>
                     <div style={links}>
