@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { BsDownload } from 'react-icons/bs';
 import { Document, Page, pdfjs } from 'react-pdf';
-import resume from './test-resume.pdf';
+import resume from './Sam Bensema - resume.pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
