@@ -13,14 +13,14 @@ function Resume() {
         <div className='m-5 flex-column'>
             <div className='d-flex flex-wrap justify-content-center'>
                 <a href={resume} download="Sam Bensema resume">
-                    <button className='mb-3 px-4 py-2' type="button">
-                        <h6>Download PDF</h6>
-                        < BsDownload />
+                    <button className='mb-3 p-2' type="button">
+                        <h6>Download my Resume</h6>
+                        <BsDownload />
                     </button>
                 </a>
             </div>
             <Document file={resume} className="d-flex justify-content-center">
-                <Page pageNumber={pageNumber} className="mb-5 resume"/>
+                <Page pageNumber={pageNumber} className="mb-5" scale={1.5}/>
             </Document>
         </div>
     );
