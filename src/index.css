@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
-  --text: #e6e1e7;
-  --accent: #9966cc;
+  --purple: #453750;
+  --white: #e6e1e7;
+  --button: #B28AEC;
 }
 
 * {
     font-family: 'Quicksand', sans-serif;
-    color: var(--text);
+    color: var(--purple);
     font-size: 20px;
 }
 
@@ -31,30 +32,29 @@ code {
 
 nav a {
   text-decoration: none;
-  color: var(--text);
+  color: var(--purple);
   margin: 0px 35px;
   padding: 10px;
 }
 
 nav a:hover{
-  border-bottom: 1px solid var(--text);
-  color: var(--text);
+  border-bottom: 1px solid var(--purple);
+  color: var(--purple);
 }
 
 input, textarea {
-  background-color: var(--text);
-  color: black;
+  background-color: var(--white);
+  color: var(--purple);
 }
 
 button {
-  border: 1px solid var(--text);
-  background-color: var(--accent);
-  color: var(--text);
+  border: 1px solid var(--white);
+  background-color: var(--button);
   max-width: 250px;
 }
 
 .email, .email:hover {
-  color: var(--accent);
+  color: var(--purple);
 }
 
 .textLayer, .annotationLayer {

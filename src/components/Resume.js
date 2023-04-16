@@ -6,8 +6,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 function Resume() {
-    const [pageNumber] = useState(1);
-
+    const [numPages, setNumPages] = useState(null);
 
     return (
         <div className='m-5 flex-column'>
@@ -19,8 +18,10 @@ function Resume() {
                     </button>
                 </a>
             </div>
-            <Document file={resume} className="d-flex justify-content-center">
-                <Page pageNumber={pageNumber} className="mb-5" scale={1.5}/>
+            <Document file={resume} onLoadSuccess={({ numPages })=>setNumPages(numPages)} className="d-flex justify-content-center">
+                {Array.apply(null, Array(numPages))
+                    .map((x, i)=>i+1)
+                    .map(page => <Page pageNumber={page}/>)}
             </Document>
         </div>
     );

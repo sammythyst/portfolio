@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   let activeNav = {
-    borderBottom: "1px solid var(--text)",
-    color: "var(--text)"
+    borderBottom: "1px solid var(--purple)",
+    color: "var(--purple)"
   };
 
   const nav = {
@@ -15,7 +15,7 @@ function Navbar() {
     return (  
 
     <nav className="main-header-menu w-100 d-md-inline-flex justify-content-between">
-      <h1 className='m-4' style={{paddingLeft: '35px'}}>Sam Bensema <span style={{color: 'var(--accent)'}}>(they/them)</span></h1>
+      <h1 className='m-4' style={{paddingLeft: '35px'}}>Sam Bensema <span>(they/them)</span></h1>
       
       <section style={nav} className='m-4'>        
         <div>
