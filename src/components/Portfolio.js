@@ -5,6 +5,7 @@ import { BsGithub } from 'react-icons/bs';
 function Portfolio() {
     const img = { 
         maxWidth: "450px",
+        width: "100%",
         display: "flex"
     }
 
@@ -16,7 +17,9 @@ function Portfolio() {
 
     const project = {
         maxWidth: "450px",
-        margin: "35px"
+        // margin: "auto",
+        padding: "30px",
+        // border: "1px solid black"
     }
 
 
