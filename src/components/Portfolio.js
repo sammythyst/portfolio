@@ -24,6 +24,15 @@ function Portfolio() {
     return (
         <div className='m-5'>
             <section className='justify-content-center d-flex flex-wrap'>
+            <div style={project}>
+                    <div style={links}>
+                        <a href="https://www.thisdayinua.com/" target="_blank" rel="noopener noreferrer"><h5>This Day in Unus Annus</h5></a>
+                        <a href="https://github.com/sammythyst/thisdayinua" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
+                    </div>
+                    <p>A memorial site for Unus Annus. Displays a new "video" everyday, on the anniversary of its original upload.</p>
+                    <p>Tools: HTML, CSS, JavaScript, JSON</p>
+                    <img src={require('../images/thisdayinua.jpg')} alt="black and white split background with an image of two men, one in an all white suit and the other in an all black suit" style={img}/>
+                </div>
                 <div style={project}>
                     <div style={links}>
                         <a href="https://mediaphile.herokuapp.com/" target="_blank" rel="noopener noreferrer"><h5>MediaPhile</h5></a>
