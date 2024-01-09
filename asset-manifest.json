@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8c594c4f.css",
+    "main.js": "/portfolio/static/js/main.78e36b08.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Sam Bensema - resume.pdf": "/portfolio/static/media/Sam Bensema - resume.4f4791d1e1218e748e20.pdf",
+    "static/media/background.png": "/portfolio/static/media/background.297ef2c43f8a7254f050.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.a0f419ca03afb46c1af5.png",
+    "static/media/re-tcg.jpg": "/portfolio/static/media/re-tcg.c6dbcfd9818575ea9f2a.jpg",
+    "static/media/college-trip.jpg": "/portfolio/static/media/college-trip.f97128314d1896a056df.jpg",
+    "static/media/thisdayinua.jpg": "/portfolio/static/media/thisdayinua.f566c73c37d6eccc4699.jpg",
+    "static/media/media-phile.jpg": "/portfolio/static/media/media-phile.e899ebe1b5af3f503379.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.8c594c4f.css.map": "/portfolio/static/css/main.8c594c4f.css.map",
+    "main.78e36b08.js.map": "/portfolio/static/js/main.78e36b08.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c594c4f.css",
+    "static/js/main.78e36b08.js"
+  ]
+}
