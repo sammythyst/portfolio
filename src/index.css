@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
-  --purple: #453750;
-  --white: #e6e1e7;
+  --text: #453750;
+  --form: #e6e1e7;
   --button: #B28AEC;
 }
 
 * {
     font-family: 'Quicksand', sans-serif;
-    color: var(--purple);
+    color: var(--text);
     font-size: 20px;
 }
 
@@ -19,7 +19,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(circle, rgba(164,161,171,1) 0%, rgba(103,90,109,1) 100%);
   background-image: url("./images/background.png");
   background-size: cover;
   background-attachment: fixed;
@@ -32,29 +31,29 @@ code {
 
 nav a {
   text-decoration: none;
-  color: var(--purple);
+  color: var(--text);
   margin: 0px 35px;
   padding: 10px;
 }
 
 nav a:hover{
-  border-bottom: 1px solid var(--purple);
-  color: var(--purple);
+  border-bottom: 1px solid var(--text);
+  color: var(--text);
 }
 
 input, textarea {
-  background-color: var(--white);
-  color: var(--purple);
+  background-color: var(--form);
+  color: var(--text);
 }
 
 button {
-  border: 1px solid var(--white);
+  border: 1px solid var(--form);
   background-color: var(--button);
   max-width: 250px;
 }
 
 .email, .email:hover {
-  color: var(--purple);
+  color: var(--text);
 }
 
 .textLayer, .annotationLayer {

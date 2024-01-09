@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   let activeNav = {
-    borderBottom: "1px solid var(--purple)",
-    color: "var(--purple)"
+    borderBottom: "1px solid var(--text)",
+    color: "var(--text)"
   };
 
   const nav = {
